@@ -1,0 +1,20 @@
+{
+  "TypesofRice": {
+    "name": "Basumati",
+    "weight": 4,
+    "price": 240
+  },
+
+
+  "TypesofWheat": {
+    "name": "Durum",
+    "weight": 5,
+    "price": 200
+  },
+
+  "TypesofPulse": {
+    "name": "Dal",
+    "weight": 6,
+    "price": 250
+  }
+}
