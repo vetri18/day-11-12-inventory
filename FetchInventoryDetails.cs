@@ -9,15 +9,14 @@ namespace Inventory
 {
     public class FetchInventoryDetails
     {
-        public Food ReadRice(string path)
+        public InventoryFactory ReadRice(string path)
         {
-            using (StreamReader file = new StreamReader(path))  // Using -- keyword will close the file as soon as the end of the scope reached
+            using (StreamReader file = new StreamReader(path))
             {
                 try
                 {
                     string json = file.ReadToEnd();
-
-                    return JsonConvert.DeserializeObject<Food>(json);
+                    return JsonConvert.DeserializeObject<InventoryFactory>(json);
                 }
                 catch (Exception)
                 {
@@ -25,14 +24,14 @@ namespace Inventory
                 }
             }
         }
-        public Food ReadWheat(string path)
+        public InventoryFactory ReadWheat(string path)
         {
             using (StreamReader file = new StreamReader(path))
             {
                 try
                 {
                     string json = file.ReadToEnd();
-                    return JsonConvert.DeserializeObject<Food>(json);
+                    return JsonConvert.DeserializeObject<InventoryFactory>(json);
                 }
                 catch (Exception)
                 {
@@ -40,14 +39,14 @@ namespace Inventory
                 }
             }
         }
-        public Food ReadPulse(string path)
+        public InventoryFactory ReadPulse(string path)
         {
             using (StreamReader file = new StreamReader(path))
             {
                 try
                 {
                     string json = file.ReadToEnd();
-                    return JsonConvert.DeserializeObject<Food>(json);
+                    return JsonConvert.DeserializeObject<InventoryFactory>(json);
                 }
                 catch (Exception)
                 {
