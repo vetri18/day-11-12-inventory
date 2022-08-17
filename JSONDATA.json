@@ -1,0 +1,38 @@
+{
+  "Textile": [
+    {
+      "name": "Him fibres",
+      "shares": 4,
+      "price": 240000
+    },
+    {
+      "name": "Uniroyal",
+      "shares": 6,
+      "price": 180000
+    }
+  ],
+  "Paper": [
+    {
+      "name": "Shreyans Ind",
+      "shares": 3,
+      "price": 150000
+    },
+    {
+      "name": "Malu Paper",
+      "shares": 5,
+      "price": 220000
+    }
+  ],
+  "Packaging": [
+    {
+      "name": "Rollataners",
+      "shares": 10,
+      "price": 260000
+    },
+    {
+      "name": "Perfect Pack",
+      "shares": 6,
+      "price": 200000
+    }
+  ]
+}
